@@ -1,0 +1,270 @@
+@font-face{
+    font-family: 'Magic School two';
+    src: url('MagicSchoolTwo.ttf');
+}
+@font-face{
+    font-family: 'monofonto';
+    src: url('monofonto.ttf');
+}
+body{
+    background-color:rgb(216, 209, 183) ;
+    text-transform: uppercase;
+    font-family: 'monofonto' ;
+    font-size: 100px;
+}
+.halo{
+margin: 0 auto;
+border: black 2px solid;
+display: grid;
+height: 850px;
+width: 1400px;
+grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding-left: -40px;
+    padding-right: -40px;
+    padding-top: -10px;
+    text-align: right;
+    background-image: url(neville.png);
+    background-repeat: no-repeat;
+    font-size: 30px;
+    font-weight: bold;
+    background-position: top right;
+}
+.grid2{
+    grid-column-start: 8;
+    grid-column-end: 23;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100%;   
+    height: auto;
+}
+.grid3{
+    grid-column-start: 22;
+    grid-column-end: 29;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    font-size: 40px;
+    margin-left: -30px;
+    padding-left: 60px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'monofonto' ;
+}
+
+.grid4{  
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 10;
+    font-size: 200;
+    background-color: black;
+    font-weight: bold;
+    font-family: 'monofonto' ;
+    color: rgb(216, 209, 183);
+}
+.grid5{
+    grid-column-start: 11;
+    grid-column-end: 23;
+    grid-row-start: 4;
+    grid-row-end: 10;
+}
+.grid6{
+    grid-column-start: 23;
+    grid-column-end: 29;
+    grid-row-start: 4;
+    grid-row-end: 29;
+}
+.grid7{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 10;
+    grid-row-end: 18;
+}
+.grid8{
+    grid-column-start: 7;
+    grid-column-end: 15;
+    grid-row-start: 10;
+    grid-row-end: 17;
+}
+.grid9{
+    grid-column-start:15;
+    grid-column-end: 23;
+    grid-row-start: 10;
+    grid-row-end: 14;
+}
+.grid10{
+    grid-column-start:23;
+    grid-column-end: 29;
+    grid-row-start: 11;
+    grid-row-end: 14;
+}
+.grid11{
+    grid-column-start:15;
+    grid-column-end: 29;
+    grid-row-start: 14;
+    grid-row-end: 17;
+    background-image: url(img/mcgalagony.png);
+    background-repeat: no-repeat;
+}
+.teszlek_suveg{
+    float: left;
+    margin-right: -200px;
+    padding-top: 0px;
+}
+.longbottom_nagy{
+    margin-top: 50px;
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   padding-top: 20;
+}
+.longbottom_kicsi{
+    padding-left: 0px;
+    padding-top:-500px;
+    margin-right: 0px;
+    margin-left: 10px;
+   margin-top: -20px;
+    float: left;
+    text-align: justify;
+}
+.mem{
+    padding-left: 50px;
+    margin-top:-5px;
+    width: 200px;
+}
+.exc{
+    margin-top: -40px;
+    background-color: black;
+    padding-right: 0px;
+    margin-right:40px ;
+    margin-left: 30px;
+    text-align: justify;
+    color: rgb(216, 209, 183);
+}
+.not_be_named{
+    margin-top: -1px;
+    font-size:60px ;
+    text-align: justify;
+    line-height: 78px;
+    letter-spacing: 5px;
+    font-family: 'monofonto' ;
+}
+.harry_arc{
+    margin-top: -10px;
+    margin-left: 30px;
+    margin-right: -60px;
+    margin-left: -5px;
+    line-height: 120px;
+    font-size: 120px;
+    letter-spacing:1px ;
+    text-align: justify;
+}
+.p_5{
+    text-align: right;
+    font-size: 50px;
+    margin-top: -80px;
+    margin-bottom: -35px;
+}
+.p_5_szoveg{
+    font-size: 15px;
+    padding-top: 30px;
+    text-align: left;
+    font-family: 'monofonto' ;
+}
+
+.f_betu{
+    float: left;
+    margin-bottom: 0px;
+}
+.truestory{
+    font-size: 35px;
+    text-align: justify;
+    margin-top:-3px ;
+    line-height: 30px;
+    font-family: 'monofonto' ;
+}
+hr{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+.honap_ev{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: center;
+    font-family: 'Magic School two';
+}
+td{
+    width: 100px;
+}
+tr{
+    font-family: 'monofonto' ;
+    font-size: 25px;
+}
+.python_arc{
+   width: 400px;
+   height: 350px;
+    margin: 3px;
+}
+.python_szoveg{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 6px;
+    line-height: 30px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-family: 'monofonto' ;
+}
+.when_i_first{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 6px;
+    line-height: normal;
+    margin-top: 5px;
+    font-family: 'monofonto' ;
+}
+.w_betu{
+    float: left;
+}
+.mcgalagony{
+    font-size: 40px;
+    margin-top: 1px;
+    margin-left: 190px;
+    float: right;
+    margin-bottom: 1px;
+    font-family: 'Magic School two';
+}
+.also_csik{
+   padding-top: 10px;
+   width: 800px;
+   float: bottom;
+}
+.p_4{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 6px;
+    line-height: normal;
+    margin-top: 35px;
+    font-family: 'monofonto' ;
+}
+.also_ujj{
+    width: 60px;
+}
+table{
+    font-family: 'monofonto' ;
+    font-size: 50px;
+}
+.grid12{
+    grid-column-start:7;
+    grid-column-end: 29;
+    grid-row-start: 16;
+    grid-row-end: 16;
+}
